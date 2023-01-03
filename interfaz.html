@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Administración de artículos</h1>
+          <table border= "1">
+            <tr>
+              <td>Codigo</td><td>Descripcion</td><td>Precio</td><td>Borrar</td><td>Seleccionar</td>
+            </tr>
+            <tbody id="tabla">
+            </tbody>
+
+          </table>
+          <form name="formulario">
+            <p>
+              Codigo:<input type="number" id="vcodigo" value="0"/>
+            </p>
+            <p>
+              descripcion:<input type="text" id="vdescripcion" />
+            </p>
+            <p>
+              precio:<input type="number" id="vprecio" value="0" />
+            </p> 
+            <input type="button" value="Agregar" onclick="agregarArticulo()">
+            <input type="button" value="Modificar" onclick="modificar()">
+
+          </form>
+          <button id="btnAbrir">Abrir tienda</button>
+
+          </p>
+          </div>
+      </div>
+
+</body>
+<script src="js/script.js"></script>
+</html>
